@@ -12,27 +12,27 @@
 
 
 
-// fetch(' https://api.acharyaprashant.org/v2/legacy/courses/series/optuser/course-series-eeb9d3')
+fetch(' https://api.acharyaprashant.org/v2/legacy/courses/series/optuser/course-series-eeb9d3')
 
-// .then(res => res.json( ))
-// .then(data => console.log(data ))
-
-
+.then(res => res.json( ))
+.then(data => console.log(data ))
 
 
 
 
 
-// fetch(' https://api.acharyaprashant.org/v2/legacy/courses/tags')
-
-// .then(res => res.json( ))
-// .then(data => console.log(data ))
 
 
-// fetch(' https://api.acharyaprashant.org/v2/legacy/courses/faqs?language=english')
+fetch(' https://api.acharyaprashant.org/v2/legacy/courses/tags')
 
-// .then(res => res.json( ))
-// .then(data => console.log(data ))
+.then(res => res.json( ))
+.then(data => console.log(data ))
+
+
+fetch(' https://api.acharyaprashant.org/v2/legacy/courses/faqs?language=english')
+
+.then(res => res.json( ))
+.then(data => console.log(data ))
 
 
 

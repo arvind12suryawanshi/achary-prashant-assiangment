@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="style.css">
+
+        <title>acharya prashant assiangment</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="header__logo"></a>
+
+            <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+                    <a href="" class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="logo.jpg" alt="">
+                        </div>
+                        
+                        <!-- <div>
+                            <span class="nav__name">Clay</span>
+                            <span class="nav__name">Mitchell</span>
+                        </div> -->
+                    </a>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+    
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__link">Live_Sessions <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                    
+    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"><a href="#" class="nav__link">video_Series</a></li>
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Location</a></li>
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Studies</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="nav__item"><a href="#" class="nav__link">video_Series</a></li>
+
+
+                            <li class="nav__item"><a href="#" class="nav__link">AP_Books</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">AP_Articles</a></li>
+
+
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__link">Invite <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                    
+    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Recent jobs</a></li>
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Better jobs</a></li>
+                                    <li class="dropdown__item"><a href="#" class="nav__link">Work Awards</a></li>
+                                </ul>
+                            </li>
+
+                            
+                            <li class="nav__item"><a href="#" class="nav__link">In_Media</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Donate</a></li>
+                           
+                        
+                            <div class="nav__img" style="margin-left: 300px;">
+                                <img src="ES.jpg" alt="">
+                            </div>
+                            <div class="nav__img">
+                                <img src="phone.jpg" alt="">
+                            </div>
+                            <div class="nav__img">
+                                <img src="menu.jpg" alt="">
+                            </div>
+                        
+
+
+                        </ul>
+                    </div>
+                    
+                </div>
+            </nav>
+        </header>
+
+
+
+
+
+
+    <style>
+      
+        .navbar2 {
+            margin-top: 60px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+        
+        .circle {
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+            line-height: 50px;
+        }
+        
+        .text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .button11 {
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid white; /* Add white border */
+            cursor: pointer;
+        }
+    </style>
+
+    <div class="navbar2">
+        <div class="circle"></div>
+        <div class="text">Get access to all 350+ video series at once!</div>
+        <button class="button11">Click Here</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+       
+        .navbar1 {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .search-box {
+            
+            /* flex-grow: 1;
+             */
+            
+            display: flex;
+            align-items: center;
+            margin: 0 10px;
+            border: 1px solid rgb(92, 49, 49);
+            border-radius: 4px;
+            height: 5vh;
+            width: 50%;
+            overflow: hidden;
+        }
+
+        .search-input {
+            padding: 5px;
+            border: none;
+            background: none;
+            width: 100%;
+            color: white;
+            outline: none;
+        }
+
+        .filter-button {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+       
+
+
+        .search-icon {
+            margin-left: 1px;
+        }
+
+        .red-button {
+            background-color: rgb(185, 8, 8);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .search-box {
+                flex-grow: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar1">
+        <div class="logo">
+            <img src="video.png" alt="Logo">
+            <!-- <span>Company Name</span> -->
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search for videos">
+            <button class="filter-button">Filter            </button>
+           
+            <span class="search-icon">🔍</span>
+        </div>
+        <button class="red-button">Login</button>
+    </div>
+
+
+
+
+
+
+
+    <style>
+        /* CSS code yahan par aayega */
+        #container {
+            margin-left: 12px;
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        #home {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        #arrow {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #007bff; /* Arrow ka color */
+        }
+
+        #santavani {
+            font-size: 20px;
+        }
+        .sant{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="card">
+    <div id="container">
+        <div id="home">Home</div>
+        <div id="arrow">&gt;</div>
+        <div id="santavani">संतवाणी</div> 
+    </div><br>
+
+    <div class="sant">संतवाणी</div>
+
+
+
+
+
+
+
+
+<style>
+    .rotate{
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: center;
+        /* justify-content: center; */
+        text-align: start;
+        padding: 20px;
+        /* margin-top: -38px; */
+
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        padding: 20px;
+    }
+
+    .section1 img {
+        max-width: 100%;
+            height: auto;
+       border-radius: 20px;
+    }
+
+    .section1 h1 {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .section1 p {
+        font-size: 5px;
+        margin-top: 10px;
+    }
+    
+
+    /* Responsive Styles */
+    @media (min-width: 768px) {
+        .section1 {
+            flex-direction: row;
+        }
+        .rotate{
+        margin-bottom: 200px;
+
+    }
+
+        .section1 img {
+            max-width: 50%;
+            margin-right: 20px;
+        }
+
+        .section1 h1 {
+            
+            font-size: 12px;
+        }
+
+        .section1 p {
+            font-style: normal;
+            font-size: 14px;
+        }
+    }
+</style>
+</head>
+<body>
+<section class="section1">
+    <img src="25.09.2023_14.34.16_REC.png" alt="Image">
+    <div class="rotate">
+        <h4 style="align-items: self-start;">संतों की सीख पर आधारित श्रृंखला</h4>
+        <p style="font-weight: 100;">जब-जब समाज में धर्म के प्रति अनादर बढ़ा है और आम-आदमी की चेतना को पाखंड ने घेरा है, तब-तब संतों ने अपने वचनों से हमारे मन को शीतलता प्रदान की है और सामाजिक चेतना को शुद्ध किया है। इस श्रृंखला में आचार्य जी ने संत कबीरदास, तुलसीदास, पलटूदास, दादू दयाल, सहजोबाई, मलूकदास, दरियादास, रविदास आदि संतों की वाणी पर चर्चा की है। जानिए उनके वचनों की जीवन में सार्थकता को आचार्य प्रशांत के साथ इस आसान वीडियो कोर्स में।</p>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+h1 {
+    margin-left: 12px;
+    text-align: start;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Logo Container Styles */
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: start; */
+    margin-top: 20px;
+}
+
+/* Logo Styles */
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+</style>
+</style>
+</head>
+<body>
+<h1>Share This Series</h1>
+<div class="logo">
+<img class="logo" src="facebook.jpg" alt="Logo 1">
+<img class="logo" src="twiter.jpg" alt="Logo 2">
+<img class="logo" src="whatsapp.jpg" alt="Logo 3">
+<img class="logo" src="linkedin.jpg" alt="Logo 4">
+</div>
+
+
+
+
+<br><br>
+
+
+<h1> video series 8 <hr></h1>
+
+
+
+
+<style>
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: row; /* Arrange boxes horizontally */
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap; /* Wrap to the next line if the screen is narrow */
+}
+
+.box {
+    width: calc(25% - 20px); /* Box ka width 25% aur margin 20px */
+    background-color: #ffffff; /* Box ka background color */
+    border: 1px solid #ddd; /* Box ka border */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+/* Button Styles */
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 80, 80); /* Hindi ke background color */
+    padding: 10px;
+}
+
+.button {
+    width: 48%; /* Button ka width 48% */
+    background-color: #ffffff; /* Button ka background color */
+    color: #d93434; /* Button ke text ka color */
+    text-align: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+            .box {
+                width: 100%; /* Box full width par aayega */
+                margin-right: 0;
+            }
+        }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box">
+    <p>भाग 1&nbsp;</p>
+    <h2>संत समागम परम सुख</h2>
+    <p>संतों के मुख्य दोहे पर आधारित</p>
+    <p>2 hours 30 minutes</p>
+    <p>Contribution: ₹11 ₹800</p>
+    <p>hindi</p>
+    <div class="button-container">
+        <button class="button">Add to cart</button>
+        <button class="button">Enroll</button>
+    </div>
+</div>
+<hr>
+<div class="box">
+    <p>भाग 1&nbsp;</p>
+    <h2>संत समागम परम सुख</h2>
+    <p>संतों के मुख्य दोहे पर आधारित</p>
+    <p>2 hours 30 minutes</p>
+    <p>Contribution: ₹11 ₹800</p>
+    <p>hindi</p>
+    <div class="button-container">
+        <button class="button">Add to cart</button>
+        <button class="button">Enroll</button>
+    </div>
+</div>
+<hr>
+<div class="box">
+    <p>भाग 1&nbsp;</p>
+    <h2>संत समागम परम सुख</h2>
+    <p>संतों के मुख्य दोहे पर आधारित</p>
+    <p>2 hours 30 minutes</p>
+    <p>Contribution: ₹11 ₹800</p>
+    <p>hindi</p>
+    <div class="button-container">
+        <button class="button">Add to cart</button>
+        <button class="button">Enroll</button>
+    </div>
+</div>
+<hr>
+<div class="box">
+    <p>भाग 1&nbsp;</p>
+    <h2>संत समागम परम सुख</h2>
+    <p>संतों के मुख्य दोहे पर आधारित</p>
+    <p>2 hours 30 minutes</p>
+    <p>Contribution: ₹11 ₹800</p>
+    <p>hindi</p>
+    <div class="button-container">
+        <button class="button">Add to cart</button>
+        <button class="button">Enroll</button>
+    </div>
+</div>
+<hr>
+
+
+
+
+
+
+</div>
+
+
+
+
+<style>
+
+    .container {
+        display: flex;
+        flex-direction: row; /* Arrange boxes horizontally */
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap; /* Wrap to the next line if the screen is narrow */
+    }
+    
+    .box {
+        width: calc(25% - 20px); /* Box ka width 25% aur margin 20px */
+        background-color: #f2f2f2; /* Box ka background color */
+        border: 1px solid #ddd; /* Box ka border */
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        
+    }
+    
+    /* Button Styles */
+    .button-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 255, 255); /* Hindi ke background color */
+        padding: 10px;
+    }
+    
+    .button {
+        width: 48%; /* Button ka width 48% */
+        background-color: #007bff; /* Button ka background color */
+        color: #fff; /* Button ke text ka color */
+        text-align: center;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    @media (max-width: 768px) {
+                .box {
+                    width: 100%; /* Box full width par aayega */
+                    margin-right: 0;
+                }
+            }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+    <div class="box" >
+      <p>भाग 1&nbsp;</p>
+        <h2>संत समागम परम सुख</h2>
+        <p>संतों के मुख्य दोहे पर आधारित</p>
+        <p>2 hours 30 minutes</p>
+        <p>Contribution: ₹11 ₹800</p>
+        <p>hindi</p>
+        <div class="button-container">
+            <button class="button">Add to cart</button>
+        <button class="button">Enroll</button>
+        </div>
+    </div>
+    <hr>
+    <div class="box">
+        <p>भाग 1&nbsp;</p>
+        <h2>संत समागम परम सुख</h2>
+        <p>संतों के मुख्य दोहे पर आधारित</p>
+        <p>2 hours 30 minutes</p>
+        <p>Contribution: ₹11 ₹800</p>
+        <p>hindi</p>
+        <div class="button-container">
+            <button class="button">Add to cart</button>
+            <button class="button">Enroll</button>
+        </div>
+    </div>
+    <hr>
+    <div class="box">
+        <p>भाग 1&nbsp;</p>
+        <h2>संत समागम परम सुख</h2>
+        <p>संतों के मुख्य दोहे पर आधारित</p>
+        <p>2 hours 30 minutes</p>
+        <p>Contribution: ₹11 ₹800</p>
+        <p>hindi</p>
+        <div class="button-container">
+            <button class="button">Add to cart</button>
+            <button class="button">Enroll</button>
+        </div>
+    </div>
+    <hr>
+    <div class="box">
+        <p>भाग 1&nbsp;</p>
+        <h2>संत समागम परम सुख</h2>
+        <p>संतों के मुख्य दोहे पर आधारित</p>
+        <p>2 hours 30 minutes</p>
+        <p>Contribution: ₹11 ₹800</p>
+        <p>hindi</p>
+        <div class="button-container" style="background-color: white; color: red;">
+            <button class="button" >Add to cart</button>
+            <button class="button">Enroll</button>
+        </div>
+    </div>
+    <hr>
+</div>    
+
+
+
+
+
+
+
+<div class="ag-format-container">
+    <div class="ag-courses_box">
+        <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Kabir Saheb <br>
+    Based on Selected Verses of Kabir Saheb <br>
+    
+    
+                <span class="ag-courses-item_date">
+                    4 Video Series
+                </span>
+              </div>
+            </a>
+          </div>
+      
+
+      
+  
+  
+      
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+  
+  
+    </div>
+  </div>
+
+
+
+  
+
+
+
+
+
+<div class="ag-format-container">
+    <div class="ag-courses_box">
+        <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Kabir Saheb <br>
+    Based on Selected Verses of Kabir Saheb <br>
+    
+    
+                <span class="ag-courses-item_date">
+                    4 Video Series
+                </span>
+              </div>
+            </a>
+          </div>
+      
+
+      
+  
+  
+      
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+  
+  
+    </div>
+  </div>
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="ag-format-container">
+    <div class="ag-courses_box">
+        <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Kabir Saheb <br>
+    Based on Selected Verses of Kabir Saheb <br>
+    
+    
+                <span class="ag-courses-item_date">
+                    4 Video Series
+                </span>
+              </div>
+            </a>
+          </div>
+      
+
+      
+  
+  
+      
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <img src="https://cimg.acharyaprashant.org/images/img-3c2f4551-5465-43be-a34e-7d598beab8c3/10/image.jpg" alt="" width="200px" height="100px" style="border-radius: 20px;">
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Kabir Saheb <br>
+Based on Selected Verses of Kabir Saheb <br>
+
+
+            <span class="ag-courses-item_date">
+                4 Video Series
+            </span>
+          </div>
+        </a>
+      </div>
+  
+  
+    </div>
+  </div>
+
+
+
+
+<div class="container" style="background-color: rgb(202, 180, 180);">
+    <h1 class="title">
+        Frequenty Asked Questions
+    </h1>
+    <main class="accordion">
+        <div class="faq-img">
+            <img src="img/faq.svg" alt="" class="accordion-img">
+        </div>
+        <div class="content-accordion">
+            <div class="question-answer">
+                <div class="question">
+                    <h3 class="title-question">
+                        Do you do a Front-end developer?
+                    </h3>
+                    <button class="question-btn">
+                        <span class="up-icon">
+                            <i class="fas fa-chevron-up"></i>
+                        </span>
+                        <span class="down-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="answer">
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. 
+                        Quisquam assumenda sapiente 
+                        mollitia excepturi quos id 
+                        magnam obcaecati non est? 
+                        Maiores?</p>
+                </div>
+            </div>
+            <div class="question-answer">
+                <div class="question">
+                    <h3 class="title-question">
+                        What is the differrence between 
+                        Front-end and Back-end?
+                    </h3>
+                    <button class="question-btn">
+                        <span class="up-icon">
+                            <i class="fas fa-chevron-up"></i>
+                        </span>
+                        <span class="down-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="answer">
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. 
+                        Quisquam assumenda sapiente 
+                        mollitia excepturi quos id 
+                        magnam obcaecati non est? 
+                        Maiores?</p>
+                </div>
+            </div>
+            <div class="question-answer">
+                <div class="question">
+                    <h3 class="title-question">
+                        Which is better Front-end or Back-end?
+                    </h3>
+                    <button class="question-btn">
+                        <span class="up-icon">
+                            <i class="fas fa-chevron-up"></i>
+                        </span>
+                        <span class="down-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="answer">
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. 
+                        Quisquam assumenda sapiente 
+                        mollitia excepturi quos id 
+                        magnam obcaecati non est? 
+                        Maiores?</p>
+                </div>
+            </div>
+            <div class="question-answer">
+                <div class="question">
+                    <h3 class="title-question">
+                        What is Front-end?
+                    </h3>
+                    <button class="question-btn">
+                        <span class="up-icon">
+                            <i class="fas fa-chevron-up"></i>
+                        </span>
+                        <span class="down-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="answer">
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. 
+                        Quisquam assumenda sapiente 
+                        mollitia excepturi quos id 
+                        magnam obcaecati non est? 
+                        Maiores?</p>
+                </div>
+            </div>
+            <div class="question-answer">
+                <div class="question">
+                    <h3 class="title-question">
+                        What is Back-end?
+                    </h3>
+                    <button class="question-btn">
+                        <span class="up-icon">
+                            <i class="fas fa-chevron-up"></i>
+                        </span>
+                        <span class="down-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="answer">
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. 
+                        Quisquam assumenda sapiente 
+                        mollitia excepturi quos id 
+                        magnam obcaecati non est? 
+                        Maiores?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="container1">
+        <div class="row">
+             
+
+              <div class="col" id="services">
+                 <h3>Services</h3>
+                 <div class="links">
+                    <a href="#">Illustration</a>
+                    <a href="#">Creatives</a>
+                    <a href="#">Poster Design</a>
+                    <a href="#">Card Design</a>
+                 </div>
+
+                 
+              </div>
+
+              <div class="col" id="useful-links">
+                 <h3>Links</h3>
+                 <div class="links">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Our Policy</a>
+                    <a href="#">Help</a>
+                 </div>
+              </div>
+              <div class="col" id="useful-links">
+                <h3>Links</h3>
+                <div class="links">
+                   <a href="#">About</a>
+                   <a href="#">Services</a>
+                   <a href="#">Our Policy</a>
+                   <a href="#">Help</a>
+                </div>
+             </div>
+             <div class="col" id="useful-links">
+                <h3>Links</h3>
+                <div class="links">
+                   <a href="#">About</a>
+                   <a href="#">Services</a>
+                   <a href="#">Our Policy</a>
+                   <a href="#">Help</a>
+                </div>
+             </div>
+             <div class="col" id="useful-links">
+                <h3>Links</h3>
+                <div class="links">
+                   <a href="#">About</a>
+                   <a href="#">Services</a>
+                   <a href="#">Our Policy</a>
+                   <a href="#">Help</a>
+                </div>
+             </div>
+
+
+              <div class="col" id="contact">
+                  <h3>Contact</h3>
+                  <div class="contact-details">
+                     <i class="fa fa-location"></i>
+                     <p>FF-42, Procube Avenue, <br> NY, USA</p>
+                  </div>
+                  <div class="contact-details">
+                     <i class="fa fa-phone"></i>
+                     <p>+91 9650585100</p>
+                  </div>
+              </div>
+        </div>
+
+        <div class="row">
+              <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Email here...">
+                    <button><i class="fa fa-paper-plane"></i></button>
+                </form>
+              </div>
+        </div>
+
+    </div>
+ </footer>
+</div>
+
+<script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
